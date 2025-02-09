@@ -10,3 +10,4 @@ def sort_by_date(incoming_data: list[dict], sorted_parameter=True) -> list[dict]
         sorted(incoming_data, key=lambda x: x["date"], reverse=sorted_parameter)
     )
     return result
+
